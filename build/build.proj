@@ -42,6 +42,9 @@
 			<ProjectToBuild Include="$(MSBuildThisFileDirectory)..\src\Renci.SshNet.VS2012.sln">
 				<Properties>Configuration=Release</Properties>
 			</ProjectToBuild>
+			<ProjectToBuild Include="$(MSBuildThisFileDirectory)..\src\Renci.SshNet.VS2015.sln">
+				<Properties>Configuration=Release</Properties>
+			</ProjectToBuild>
 		</ItemGroup>
 		<MSBuild Projects="@(ProjectToBuild)" Targets="Rebuild"/>
 	</Target>
