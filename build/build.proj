@@ -15,10 +15,12 @@
 			<Project>Renci.SshNet</Project>
 			<Moniker>net40</Moniker>
 		</TargetFramework>
+        <!--
 		<TargetFramework Include="Windows Phone 7.1">
 			<Project>Renci.SshNet.WindowsPhone</Project>
 			<Moniker>sl4-windowsphone71</Moniker>
 		</TargetFramework>
+        -->
 		<TargetFramework Include="Windows Phone 8.0">
 			<Project>Renci.SshNet.WindowsPhone8</Project>
 			<Moniker>windowsphone8</Moniker>
@@ -41,9 +43,11 @@
 	
 	<Target Name="Build">
 		<ItemGroup>
+            <!--
 			<ProjectToBuild Include="$(MSBuildThisFileDirectory)..\src\Renci.SshNet.VS2012.sln">
 				<Properties>Configuration=Release</Properties>
 			</ProjectToBuild>
+            -->
 			<ProjectToBuild Include="$(MSBuildThisFileDirectory)..\src\Renci.SshNet.VS2015.sln">
 				<Properties>Configuration=Release</Properties>
 			</ProjectToBuild>
