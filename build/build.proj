@@ -23,10 +23,12 @@
 			<Project>Renci.SshNet.WindowsPhone8</Project>
 			<Moniker>windowsphone8</Moniker>
 		</TargetFramework>
+        <!--
 		<TargetFramework Include="Silverlight 4">
 			<Project>Renci.SshNet.Silverlight</Project>
 			<Moniker>sl4</Moniker>
 		</TargetFramework>
+        -->
 		<TargetFramework Include="Silverlight 5">
 			<Project>Renci.SshNet.Silverlight5</Project>
 			<Moniker>sl5</Moniker>
